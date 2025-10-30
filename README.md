@@ -1,8 +1,5 @@
 
----
-
-````markdown
-# 🚗 Vehicle Insurance Claim Prediction — End-to-End MLOps Project  
+## Vehicle Insurance Claim Prediction — End-to-End MLOps Project  
 
 <p align="center">
   <img src="https://img.shields.io/badge/Domain-Machine%20Learning-blue?style=for-the-badge"/>
@@ -12,11 +9,9 @@
   <img src="https://img.shields.io/badge/CI/CD-GitHub%20Actions-black?style=for-the-badge"/>
 </p>
 
----
-
 ## 🧠 Overview
 
-This project is a **complete MLOps pipeline** for automating the lifecycle of a **Vehicle Insurance Claim Prediction System**.  
+This project is a **Complete MLOps Pipeline** for automating the lifecycle of a **Vehicle Insurance Claim Prediction System**.  
 From **data ingestion and transformation** to **model training, evaluation, and deployment**, everything is automated using **AWS**, **Docker**, and **GitHub Actions**.
 
 The goal?  
@@ -26,7 +21,7 @@ To demonstrate mastery over **MLOps architecture, cloud integration, CI/CD, and 
 
 ## ⚙️ Project Workflow
 
-```mermaid
+```bash
 flowchart TD
     A[Template Creation] --> B[Virtual Env & Dependencies]
     B --> C[MongoDB Atlas Setup]
@@ -39,7 +34,7 @@ flowchart TD
     I --> J[Model Evaluation & Pusher]
     J --> K[Prediction Pipeline / app.py]
     K --> L[Docker + CI/CD + EC2 Deployment]
-````
+```
 
 ---
 
